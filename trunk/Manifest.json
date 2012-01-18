@@ -1,0 +1,34 @@
+{
+  "info" : 
+  {
+    "name" : "localfile",
+
+    "summary" : "Access to file data on the local file system (with preview)",
+    "description" : "Provides convenient access to data contained in files on the local (browser) file system.",
+    
+    "homepage" : "http://contrib.qooxdoo.org/project/localfile",
+
+    "license" : "LGPL/EPL",
+    "authors" : 
+    [
+      {
+        "name" : "Derrell Lipman (derrell)",
+        "email" : "derrell.lipman@unwireduniverse.com"
+      }
+    ],
+
+    "version" : "trunk",
+    "qooxdoo-versions": ["1.6"]
+  },
+  
+  "provides" : 
+  {
+    "namespace"   : "localfile",
+    "encoding"    : "utf-8",
+    "class"       : "source/class",
+    "resource"    : "source/resource",
+    "translation" : "source/translation",
+    "type"        : "contribution"
+  }
+}
+
